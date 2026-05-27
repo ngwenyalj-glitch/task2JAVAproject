@@ -53,37 +53,35 @@ The API is documented and fully testable via Swagger UI.
 Creates a new product in the database.
 * **Success Response:** `201 CREATED`
 <img width="2256" height="1453" alt="screenshot (321)" src="https://github.com/user-attachments/assets/e8295807-acaa-4b17-a714-8814b5083587" />
-<img width="2256" height="1441" alt="screenshot (317)" src="https://github.com/user-attachments/assets/cff9d6c8-dc50-4091-aa5d-96d8b37c6ff2" />
-
-
 
 *Successful POST request creating "My First Vistula Product".*
 
-### 2. Find All Products (`GET /api/v1/products`)
-Retrieves a list of all products currently stored in the database.
-* **Success Response:** `200 OK` (Returns an array of Product JSON objects)
 
-<img width="2256" height="1446" alt="screenshot (318)" src="https://github.com/user-attachments/assets/b1b27a38-8341-465b-bbdc-ef7d3da7b732" />
+
+
 
 *Successful GET request retrieving all products.*
 
-### 3. Find Product by ID (`GET /api/v1/products/{id}`)
+### 2. Find Product by ID (`GET /api/v1/products/{id}`)
 Retrieves a specific product by its unique ID.
 * **Success Response:** `200 OK`
+<img width="2256" height="1441" alt="screenshot (317)" src="https://github.com/user-attachments/assets/cff9d6c8-dc50-4091-aa5d-96d8b37c6ff2" />
+
+
 
 <img width="2256" height="1428" alt="screenshot (319)" src="https://github.com/user-attachments/assets/a7f788b4-87fc-4309-9856-40618be3c91a" />
 
 *Successful GET request retrieving a product by its ID.*
 
 
-### 4. Update a Product (`PUT /api/v1/products/{id}`)
+### 3. Update a Product (`PUT /api/v1/products/{id}`)
 Updates the details of an existing product.
 * **Success Response:** `200 OK`
 <img width="2256" height="1453" alt="screenshot (320)" src="https://github.com/user-attachments/assets/147d63cf-3169-4568-8d45-7748c8619ba2" />
 
 *Successful PUT request updating the product name to "Updated Vistula Product".*
 
-### 5. Delete a Product (`DELETE /api/v1/products/{id}`)
+### 4. Delete a Product (`DELETE /api/v1/products/{id}`)
 Removes a product from the database.
 * **Success Response:** `204 NO CONTENT`
 
