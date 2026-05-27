@@ -50,7 +50,7 @@ The API is documented and fully testable via Swagger UI.
 Creates a new product in the database.
 * **Success Response:** `201 CREATED`
 
-![POST Request]:(\Users\Surface Laptop 2\Desktop\task2 java\images)
+![POST Request](images/screenshot(317).png)
 
 
 *Successful POST request creating "My First Vistula Product".*
