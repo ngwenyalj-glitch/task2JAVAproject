@@ -33,11 +33,11 @@ The application uses a lightweight H2 database that stores data in memory during
 * **Username:** `sa`
 * **Password:** *(leave blank)*
 
-<img width="2256" height="1443" alt="screenshot (315)" src="https://github.com/user-attachments/assets/0ba88e41-5b50-4b61-8863-f18f819859d0" />
+
 <img width="2256" height="1454" alt="screenshot (314)" src="https://github.com/user-attachments/assets/382d8091-972c-471a-b8d7-1e3d3815a9e8" />
 
 *Successful connection to the H2 Database console.*
-
+<img width="2256" height="1443" alt="screenshot (315)" src="https://github.com/user-attachments/assets/0ba88e41-5b50-4b61-8863-f18f819859d0" />
 
 *View of the `PRODUCTS` table after inserting and updating a record.*
 
