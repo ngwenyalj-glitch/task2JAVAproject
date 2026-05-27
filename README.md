@@ -69,8 +69,6 @@ Retrieves a specific product by its unique ID.
 
 
 
-<img width="2256" height="1428" alt="screenshot (319)" src="https://github.com/user-attachments/assets/a7f788b4-87fc-4309-9856-40618be3c91a" />
-
 *Successful GET request retrieving a product by its ID.*
 
 
@@ -85,6 +83,8 @@ Updates the details of an existing product.
 Removes a product from the database.
 * **Success Response:** `204 NO CONTENT`
 
+
+<img width="2256" height="1428" alt="screenshot (319)" src="https://github.com/user-attachments/assets/a7f788b4-87fc-4309-9856-40618be3c91a" />
 
 *Successful DELETE request removing a product from the database.
 
