@@ -50,21 +50,21 @@ The API is documented and fully testable via Swagger UI.
 Creates a new product in the database.
 * **Success Response:** `201 CREATED`
 
-![POST Request](images/Screenshot(317).png)
+![POST Request](images/screenshot(317).png)
 *Successful POST request creating "My First Vistula Product".*
 
 ### 2. Find All Products (`GET /api/v1/products`)
 Retrieves a list of all products currently stored in the database.
 * **Success Response:** `200 OK` (Returns an array of Product JSON objects)
 
-![GET All Request](images/Screenshot(318).png)
+![GET All Request](images/screenshot(318).png)
 *Successful GET request retrieving all products.*
 
 ### 3. Find Product by ID (`GET /api/v1/products/{id}`)
 Retrieves a specific product by its unique ID.
 * **Success Response:** `200 OK`
 
-![GET by ID Request](images/Screenshot(319).png)
+![GET by ID Request](images/screenshot(319).png)
 *Successful GET request retrieving a product by its ID.*
 
 
@@ -72,14 +72,14 @@ Retrieves a specific product by its unique ID.
 Updates the details of an existing product.
 * **Success Response:** `200 OK`
 
-![PUT Request](images/Screenshot(320).png)
+![PUT Request](images/screenshot(320).png)
 *Successful PUT request updating the product name to "Updated Vistula Product".*
 
 ### 5. Delete a Product (`DELETE /api/v1/products/{id}`)
 Removes a product from the database.
 * **Success Response:** `204 NO CONTENT`
 
-![DELETE Request](images/Screenshot(321).png)
+![DELETE Request](images/screenshot(321).png)
 *Successful DELETE request removing a product from the database.
 
 
