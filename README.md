@@ -52,7 +52,7 @@ The API is documented and fully testable via Swagger UI.
 ### 1. Create a Product (`POST /api/v1/products`)
 Creates a new product in the database.
 * **Success Response:** `201 CREATED`
-
+<img width="2256" height="1453" alt="screenshot (321)" src="https://github.com/user-attachments/assets/e8295807-acaa-4b17-a714-8814b5083587" />
 <img width="2256" height="1441" alt="screenshot (317)" src="https://github.com/user-attachments/assets/cff9d6c8-dc50-4091-aa5d-96d8b37c6ff2" />
 
 
@@ -86,7 +86,7 @@ Updates the details of an existing product.
 ### 5. Delete a Product (`DELETE /api/v1/products/{id}`)
 Removes a product from the database.
 * **Success Response:** `204 NO CONTENT`
-<img width="2256" height="1453" alt="screenshot (321)" src="https://github.com/user-attachments/assets/e8295807-acaa-4b17-a714-8814b5083587" />
+
 
 *Successful DELETE request removing a product from the database.
 
